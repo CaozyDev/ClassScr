@@ -6,16 +6,27 @@
 }
 
 body {
-    background-image: url('sport.png');
+    background-image: url('start.png');
     background-size: cover;
+    transition: background-image 1s ease-in-out;
+    overflow: hidden;
 }
 
 #clock {
-    font-size:11vw;
+    font-size:10vw;
     text-align: left;
     font-family: 'DIN';
     color: #703434;
     position: fixed;
-    top: 23%;
-    left: 8%;
+    top:13vw;
+    left: 7.8vw;
+}
+#date {
+    font-size:2.6vw;
+    text-align: left;
+    font-family: 'Roboto', sans-serif, '微软雅黑';
+    color: #703434;
+    position: fixed;
+    top: 25vw;
+    left: 7.8vw;
 }
